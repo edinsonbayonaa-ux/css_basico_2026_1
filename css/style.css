@@ -6,11 +6,27 @@ background: red;
 
 .container{
     width: 80%;
-    background-color: rgb(63, 7, 106);
+    color: #ffffff;
+    background-color: rgb(186, 77, 208);
     border: 3px solid black;
     font: 100%;
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
     margin: auto;
+}
+
+header{
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    font: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: justify;
+    margin: auto;
+}
+
+.container main img{
+    width: 50%;
 }
