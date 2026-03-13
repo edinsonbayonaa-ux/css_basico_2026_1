@@ -24,12 +24,17 @@
         </header>
 
         <main>
-
+            <p style="text-align: center;">
             <img src="../img/img_contactos.jpg" alt="">
+            </p>
 
             <div class="main_principal">    
             
             <h2>Bienvenido a mi pagina de contactos</h2>
+            <h2>Para comunicarse con un asesor comuniquese por aqui</h2>
+            <p style="text-align: center;">
+            <a href="https://api.whatsapp.com/send/?phone=573153801813&text=Hola%2C+necesito+informaci%C3%B3n&type=phone_number&app_absent=0"><img src="../img/img_boton_whatsapp.png" style="width: 100px"; float: left; alt="">
+            </a></p>
 
         <p>Esto es un parrafo dentro de un divisor</p>
 
@@ -39,12 +44,47 @@
 
     </main>
 
+    <h2>Formulario de contacto</h2>
+
+    <form class="contact-form" action="procesar_formulario.php" method="POST">
+        <h2>Contacto</h2>
+
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required maxlength="100">
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required minlength="10"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1973.9398143699532!2d-73.59766856604422!3d8.314758989428618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d8f7d27c7bf07%3A0xa72b1dc51f284557!2sUniversidad%20Popular%20del%20Cesar%20-%20Aguachica!5e0!3m2!1ses!2sco!4v1773434051656!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <footer>
 
-        <p>Pie de mi página</p>
 
     </footer>
-
+    <p>
+        <p style="text-align: center;">
+        <a href="http://www.facebook.com "><img src="../img/boton_facebook.png" style="width: 100px"; alt=""></a>
+        <a href="http://www.instagram.com "><img src="../img/boton_instagram.png" style="width: 100px"; alt=""></a>
+        <a href="http://www.pinteres.com "><img src="../img/boton_pinteres.png" style="width: 100px";  alt=""></a>
+        </p>
+    </p>
     </div>
     
 </body>

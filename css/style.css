@@ -28,14 +28,14 @@ header{
 }
 
 .container main img{
-    width: 50%;
+    width: 25%;
 }
 
 .menu ul li a{
     background: white;
     text-decoration: none;
-    display: inline-block;
-    padding: 16px;
+    display: inline;
+    padding-block: 20%;
 
 }
 
